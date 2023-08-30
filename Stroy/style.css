@@ -50,7 +50,6 @@ html,body{
 #fullscreen {
     height: 100%;
     width: 100%;
-    background-color: red;
     position:absolute;
     display: none;
     background-size: cover;
