@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#center{
+    height: 60%;
+    width: 60%;
+    background-color: red;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    top: 50%;
+    left: 50%; 
+}
