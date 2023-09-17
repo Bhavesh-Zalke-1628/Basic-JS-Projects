@@ -10,9 +10,25 @@ html,body{
 #center{
     height: 60%;
     width: 60%;
-    background-color: red;
+    /* background-color: red; */
     transform: translate(-50%,-50%);
     position: absolute;
     top: 50%;
     left: 50%; 
+    border:  1px solid #000;
+}
+
+.imageDiv{
+    height: 400px;
+    width: 300px;
+    position:absolute;;
+    overflow: hidden;
+    /* background-color: yellow; */
+}
+
+.imageDiv img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transform: translateY(90%);   
 }
